@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #fdf4f0;
+    @apply text-slate-900;
+    min-height: 100vh;
+  }
+
+  /* Telugu font support */
+  .font-telugu {
+    font-family: 'Noto Sans Telugu', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom accessible focus states */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  @apply outline-none ring-2 ring-brand-600 ring-offset-2;
+}
+
+/* Pulse animation for loading skeletons */
+@keyframes shimmer {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+.animate-shimmer {
+  animation: shimmer 1.5s infinite ease-in-out;
+}
