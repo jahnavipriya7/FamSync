@@ -1,4 +1,4 @@
-# FamSync — Screen Time Without the Fights
+# FamSync — Live greener. Play together. Grow wiser.
 
 > **Headline Promise:** *Screen time without the fights.*
 
