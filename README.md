@@ -1,4 +1,5 @@
-🏡 FamSync v2 — Live greener. Play together. Grow wiser.
+🏡 #FamSync v2 — Live greener. Play together. Grow wiser.
+
 Screen time without the fights. Bridging intergenerational knowledge, fostering low-tech family bonding, and balancing household teamwork for modern Indian families.
 
 Built by: Team J&Anni (Visakhapatnam, Andhra Pradesh, India)
